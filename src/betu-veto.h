@@ -8,4 +8,12 @@
 #ifndef BETU_VETO_H
 #define BETU_VETO_H
 
-#endif BETU_VETO_H
+#include <stdbool.h>
+
+typedef struct VetoCtx {
+    int id;
+} VetoCtx;
+
+bool betuveto(VetoCtx *ctx, char *txt);
+
+#endif /* BETU_VETO_H */
