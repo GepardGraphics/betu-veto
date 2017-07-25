@@ -5,7 +5,7 @@
  *
  */
 
-#ifndef FONT_RENDER_H
-#define FONT_RENDER_H
+#ifndef BETU_VETO_H
+#define BETU_VETO_H
 
-#endif FONT_RENDER_H
+#endif BETU_VETO_H
